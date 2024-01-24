@@ -1,6 +1,6 @@
 
 body {
-  font-family:cursive;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 25px;
   margin: 0;
   padding: 0;
@@ -14,7 +14,6 @@ body {
 .name img{
   height:60px;
   width: 60px;
-  margin-left: 10px;
   margin-top: -10px;
   border-radius: 1%;
 }
@@ -43,11 +42,10 @@ img {
 }
 .description {
   width:400px;
-  height: 200px;
+  height: 150px;
   position: relative;
   flex: 2;
   right: 4%;
-  padding: bottom 1px;
 }
 #a1,#a2,#a3,#a4{
     text-decoration: none;
@@ -57,7 +55,7 @@ img {
     margin-right: 30px;
     margin-bottom: 15px;
     margin-left: 5px;
-    font-size: 20px;
+    font-size: 30px;
 }
 .buttons{
     display: flex;
@@ -72,14 +70,14 @@ img {
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 20px;
-  margin-left: 550px;
+  margin-left: 400px;
 }
 .contact img{
   width: auto;
   height: 50px;
   margin:6px;
   cursor: pointer;
-  margin-top: -5%;
+  margin-top: -10px;
 }
 .button{
   background: #00000be9;
@@ -108,6 +106,7 @@ img {
   color: #FFFFFF;
 }
 footer {
+
   background-color: #333;
   color: white;
   font-size: 12px;
@@ -143,15 +142,16 @@ footer {
   p{
     font-size: 18px;
     margin-left: 50px;
-    margin-right: 40px;
+    margin-right: 50px;
   }
   .contact{
     margin-left: 160px;
     margin-top: 180px;
   }
   .contact img{
-    height:40px;
+    height:30px;
     width: auto;
+    margin-bottom: 1px;
   }
   .button{
     width:auto;
